@@ -1,4 +1,4 @@
-package com.example.demo.rpc.hessian.cli;
+package com.example.demo.conf.hessian;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,7 +10,7 @@ import com.example.demo.service.MyService;
 @Configuration
 @ComponentScan
 public class CliConfig {
-	@Bean
+/*	@Bean
 	public HessianProxyFactoryBean myService() {
 		HessianProxyFactoryBean proxy = new HessianProxyFactoryBean();
 		
@@ -19,5 +19,5 @@ public class CliConfig {
 		
 		
 		return proxy;
-	}
+	}*/
 }

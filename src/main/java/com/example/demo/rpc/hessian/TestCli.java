@@ -1,7 +1,8 @@
-package com.example.demo.rpc.hessian.cli;
+package com.example.demo.rpc.hessian;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import com.example.demo.conf.hessian.CliConfig;
 import com.example.demo.service.MyService;
 
 public class TestCli {

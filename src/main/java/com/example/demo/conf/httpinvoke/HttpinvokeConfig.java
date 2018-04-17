@@ -1,4 +1,4 @@
-package com.example.demo.rpc.httpinvoke;
+package com.example.demo.conf.httpinvoke;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

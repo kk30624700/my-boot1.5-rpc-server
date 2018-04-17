@@ -1,4 +1,4 @@
-package com.example.demo.rpc.hessian.ser;
+package com.example.demo.conf.hessian;
 
 import java.util.Properties;
 
@@ -20,7 +20,7 @@ import com.example.demo.service.MyService;
 @ComponentScan("com.example.demo.rpc.hessian.controller")
 @Configuration
 @EnableWebMvc
-public class WebConfig extends WebMvcConfigurerAdapter {
+public class SerConfig extends WebMvcConfigurerAdapter {
 	@Bean
     public ViewResolver viewResolver() {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();

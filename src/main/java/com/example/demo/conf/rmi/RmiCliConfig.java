@@ -1,4 +1,4 @@
-package com.example.demo.rpc.rmi;
+package com.example.demo.conf.rmi;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
